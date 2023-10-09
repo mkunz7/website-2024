@@ -1,0 +1,185 @@
+[{
+    "id": "ghidra",
+    "hide": false,
+    "instructors": [{
+      "name": "Chris Eagle",
+      "title": "",
+      "twitter_handle": "@sk3wl",
+      "github_handle": "",
+      "workplace": "",
+      "image_name": "",
+      "bio": "Chris Eagle is a security researcher whose interests include computer network operations, computer forensics and reverse / anti-reverse engineering. He was the chief architect of the competition infrastructure for DARPA 's Cyber GrandChallenge. He has been a speaker at conferences such as Black Hat, Shmoocon, and Defcon and is the author of \"The Ghidra Book\" and \"The IDA ProBook\". In his spare time he is an inveterate CTF player and has twice won the prestigious capture the flag competition at Defcon."
+    }],
+    "course": {
+      "title": "Introduction to Ghidra",
+      "days": 2,
+      "scheduled": {
+        "day_one": true,
+        "day_two": true
+      },
+      "time": "8:00 AM - 5:00 PM, with one hour lunch break",
+      "description": {
+        "long_form": "<p>This is an introductory reverse engineering course that teaches students the basics of the Ghidra disassembler/decompiler along with the basic reverse engineering concepts needed to begin analyzing binary software.</p><p>The course begins by ensuring that everyone has a working Ghidra installation and discussing the basic layout of the Ghidra source repo. Next, basic project creation is discussed on the way to examining a simple binary that allows all of the basic features of Ghidra to be explored. In particular, Ghidra's treatment of stack frames, calling conventions and cross references and their importance to the reverse engineering process are discussed.</p><p>The course then moves on to discuss complex data structures and the Ghidra features that assist in decoding and representing them with examples of arrays, C structs and C++ polymorphic classes and vtables.</p><p>The course concludes with a discussion of Ghidra's collaborative reverse engineering capabilities and the setup of a Ghidra collaboration server, Ghidra's integrated debugger, and an introduction to Ghidra scripting where we will review several of Ghidra's example scripts along with some of the basic scripting APIs. Basic scripting using Java and Python are covered, along with Ghidra's Eclipse integration.</p>",
+        "short_form": "<p>This course is designed to introduce students to the essential features of the Ghidra disassembler/decompiler. The course begins with Ghidra installation and project creation, then moves on to cover all of the default Ghidra displays to understand how they can help you in your reverse engineering efforts. Fundamental concepts such as parameter passing and stack frame are covered using binaries from a variety of architectures in order to understand various Ghidra displays and analysis capabilities. Ghidra's handling of complex data types is covered from both the disassembler's and the decompiler's point of view.</p><p>The course conclude with a discussion of configuring and using the Ghidra collaboration server, Ghidra's integrated debugger, and an introduction to Ghidra scripting. No previous Ghidra or reverse engineering experience is assumed.</p>"
+      },
+      "prerequisites": "Prerequisites for the course include some knowledge of assembly languages (32 and 64-bit x86, ARM and MIPS examples will be utilized). The ability to read C is useful for understanding the decompiler's output, and the ability program in Java and/or Python are essential to understanding the scripting portions of the course.",
+      "equipment": "Students are required to supply their own Windows, Linux, or Mac laptop and must have pre-installed or have the ability to install JRE/JDK 11.0 or greater and the Eclipse IDE."
+    }
+  },
+  {
+    "id": "codereview",
+    "hide": true,
+    "instructors": [{
+      "name": "Seth Law",
+      "title": "",
+      "twitter_handle": "@sethlaw",
+      "github_handle": "",
+      "workplace": "",
+      "image_name": "",
+      "bio": "Seth Law is an experienced Application Security Professional with over 15 years of experience in the computer security industry. During this time, Seth has worked within multiple disciplines in the security field, from software development to network protection, both as a manager and individual contributor. Seth has honed his application security skills using offensive and defensive techniques, including tool development. Seth is employed as a security consultant, hosts the Absolute AppSec podcast with Ken Johnson, and is a regular speaker at developer meetups and security events, including Blackhat, Defcon, CactusCon, and other regional conferences."
+    }, {
+      "name": "Ken Johnson",
+      "title": "",
+      "twitter_handle": "@cktricky",
+      "github_handle": "",
+      "workplace": "",
+      "image_name": "",
+      "bio": "Ken Johnson, has been hacking web applications professionally for 12 years and given security training for 9 of those years. Ken is both a breaker and builder and currently works on the GitHub application security team. Previously, Ken has spoken at RSA, You Sh0t the Sheriff, Insomnihack, CERN,  DerbyCon, AppSec USA, AppSec DC, AppSec California, DevOpsDays DC, LASCON, RubyNation, and numerous Ruby, OWASP, and AWS events about appsec, devops security, and AWS security. Ken's current projects are WeirdAAL, OWASP Railsgoat, and the Absolute AppSec podcast with Seth Law."
+    }],
+    "course": {
+      "title": "Practical Secure Code Review",
+      "days": 2,
+      "scheduled": {
+        "day_one": true,
+        "day_two": true
+      },
+      "time": "8:00 AM - 5:00 PM, with one hour lunch break",
+      "description": {
+        "long_form": "<p>Ready to take your bug hunting to a deeper level? Ever been tasked with reviewing source code for SQL Injection, XSS, Access Control and other security flaws? Does the idea of reviewing this code leave you with heartburn? Join us for Practical Secure Code Review, aka Seth & Ken's Excellent Adventures (in Secure Code Review). This course introduces a proven methodology and framework for performing a secure code review, as well as addressing common challenges in modern secure code review. Short circuit developing individual secure code review techniques by gleaning from Seth & Ken's past adventures in performing hundreds of code reviews and the lessons we've learned along the way. We will share a proven methodology to perform security analysis of any source code repository and suss out security flaws, no matter the size of the code base, or the framework, or the language.</p><p>This course introduces security professionals and software developers to the nitty/gritty details of performing a code review. Specifically, the course imparts the following to attendees:</p> <ul><li>Code Review Methodology used to cover security issues</li><li>Practical methods for identifying vulnerabilities in multiple languages, including:<ul><li>Ruby/Rails</li><li>Django/Python</li><li>Node/Express</li><li>Java/Spring</li><li>.Net/MVC</li></ul></li><li>Open source code review tools available for different languages</li><li>Hands-on experience identifying vulnerabilities in known-vulnerable code bases.</li></ul>",
+        "short_form": "Have you been tasked with reviewing too much code for security bugs in too little of time? What about new frameworks or languages you are unfamiliar with? This course addresses common challenges in modern secure code review. Sharpen your code review techniques by gleaning from Seth & Ken's Excellent Adventures (in Secure Code Review) and the lessons we've learned along the way."
+      },
+      "prerequisites": "Attendees should be familiar with the development process (SDLC) and where security code reviews fit into the process. Attendees must have experience using an IDE, running command-line tools, and be able to read application source code. Attendees must have knowledge of the OWASP Top 10 and other common vulnerabilities.",
+      "equipment": "A laptop and an IDE."
+    }
+  },
+  {
+    "id": "defense_in_depth",
+    "hide": false,
+    "instructors": [{
+      "name": "John Poulin",
+      "title": "Staff manager of Product Security Engineering",
+      "twitter_handle": "@forced_request",
+      "github_handle": "forced-request",
+      "workplace": "GitHub",
+      "image_name": "",
+      "bio": "<p>John Poulin is an experienced Application Security Practitioner with over 10 years of experience in software development and security. Over his tenure, John has worked with many Fortune 500 companies and startups alike to perform secure code review, architecture, and design discussions, as well as threat modeling.</p><p>Currently, as a Staff manager of Product Security Engineering at GitHub, John and his team focus on performing secure code review of features and services, performing threat modeling, and overall helping to ensure that our software ecosystem is moving towards security maturity.</p><p>John has given talks or training at many industry conferences, such as DEF CON, LASCON, DevSecCon, CactusCon, Source, as well as various Ruby and OWASP events about practical Application Security. </p>"
+    }],
+    "course": {
+      "title": "Defense In Depth Engineering",
+      "days": 2,
+      "scheduled": {
+        "day_one": true,
+        "day_two": true
+      },
+      "time": "8:00 AM - 5:00 PM, with one hour lunch break",
+      "description": {
+        "long_form": "<p>The 2021 OWASP Top Ten introduced a category 'Insecure Design' to focus on risks related to design flaws. In this training, we will focus on building defense-in-depth software. What can we do to proactively architect software to be more resilient to attacks? What type of findings may not be discovered via automated static analysis? How can we design our software to be more friendly during incident response scenarios?</p><p>This two-day training is perfect for engineers as well as security practitioners that have some familiarity with the OWASP top 10. During this training, we will focus on identifying often-overlooked architectural anti-patterns and vulnerabilities to be on the lookout for. We will utilize source code review to analyze patterns for improvement in both real-world applications as well as intentionally vulnerable applications. Every interactive exercise will involve discovering concerns and writing code to engineer solutions. The course will wrap up with real-world vulnerability analysis of open-source software with an effort to help provide more secure architectural recommendations for these projects.</p><p>Engineers will leave this training with a solid understanding of defense-in-depth software architecture and design. Security engineers or consultants can expect to leave with an increased understanding of insecure design patterns and vulnerabilities.</p>",
+        "short_form": "<p>The 2021 OWASP Top Ten introduced a category 'Insecure Design' to focus on risks related to design flaws. In this training, we will focus on building defense-in-depth software. What can we do to proactively architect software to be more resilient to attacks? What type of findings may not be discovered via automated static analysis? How can we design our software to be more friendly during incident response scenarios?</p><p>This two-day training is perfect for engineers as well as security practitioners that have some familiarity with the OWASP top 10. During this training, we will focus on identifying often-overlooked architectural anti-patterns and vulnerabilities to be on the lookout for. We will utilize source code review to analyze patterns for improvement in both real-world applications as well as intentionally vulnerable applications. Every interactive exercise will involve discovering concerns and writing code to engineer solutions. The course will wrap up with real-world vulnerability analysis of open-source software with an effort to help provide more secure architectural recommendations for these projects.</p><p>Engineers will leave this training with a solid understanding of defense-in-depth software architecture and design. Security engineers or consultants can expect to leave with an increased understanding of insecure design patterns and vulnerabilities.</p>"
+      },
+      "prerequisites": "",
+      "equipment": "Attendees will need to come prepared with a laptop, with Docker installed."
+    }
+  },
+  {
+    "id": "python",
+    "hide": false,
+    "instructors": [{
+      "name": "Joff Thyer",
+      "title": "Penetration Tester and Security Analyst",
+      "twitter_handle": "@joff_thyer",
+      "github_handle": "yoda66",
+      "workplace": "Black Hills Information Security",
+      "image_name": "",
+      "bio": "<p>Joff Thyer has been a Penetration Tester and Security Analyst with Black Hills Information Security (BHIS) since 2013. He has an associate in Computer Science, a B.S. in Mathematics, and an M.S. in Computer Science, as well as several certifications (listed below). The best part of a penetration test for Joff is developing sophisticated malware that tackles defensive solutions, ultimately delivering exciting wins for company engagements. He has extensive experience covering intrusion prevention/detection systems, infrastructure defense, vulnerability analysis, defense bypass, source code analysis, and exploit research. When Joff isn't working or co-hosting the Security Weekly podcast, he enjoys making music and woodworking.</p>"
+    }],
+    "course": {
+      "title": "Introduction to Python",
+      "days": 2,
+      "scheduled": {
+        "day_one": true,
+        "day_two": true
+      },
+      "time": "8:00 AM - 5:00 PM, with one hour lunch break",
+      "description": {
+        "long_form": "<p>One of the most pressing needs Information Security professionals face today is the need to automate their work in both the attack, and defense context. Skills gained for automating tasks in programming languages are critical to scale up the efforts of a limited security professional talent pool.</p><p>For example, it is not uncommon to find useful Python scripts on the Internet that are at a Proof-of-Concept stage to quickly achieve some information security professional goal. Penetration testers, incident responders, forensics, and defense professionals need the ability to be able to take existing code and produce stable functional Python tools or be able to debug an issue with an existing tool.</p><p>This course aims to teach the fundamentals of the Python programming language such that a student will gain a beginning to intermediate level of competency with the language. Labs will be presented in a Capture the Flag (CTF) style format as well as some more comprehensive programming tasks.</p><p>The expectation as to whether students can complete all exercises is dependent on prior student experience, and knowledge. Python is a language that is best approached if a student has some elementary programming background (such as shell scripting for example).</p>",
+        "short_form": "<p>One of the most pressing needs Information Security professionals face today is the need to automate their work in both the attack, and defense context. Skills gained for automating tasks in programming languages are critical to scale up the efforts of a limited security professional talent pool.</p><p>For example, it is not uncommon to find useful Python scripts on the Internet that are at a Proof-of-Concept stage to quickly achieve some information security professional goal. Penetration testers, incident responders, forensics, and defense professionals need the ability to be able to take existing code and produce stable functional Python tools or be able to debug an issue with an existing tool.</p><p>This course aims to teach the fundamentals of the Python programming language such that a student will gain a beginning to intermediate level of competency with the language. Labs will be presented in a Capture the Flag (CTF) style format as well as some more comprehensive programming tasks.</p><p>The expectation as to whether students can complete all exercises is dependent on prior student experience, and knowledge. Python is a language that is best approached if a student has some elementary programming background (such as shell scripting for example).</p>"
+      },
+      "prerequisites": "<ul><li>Knowledge of how to use text editors, and UNIX/Linux command line is helpful.</li><li>Some exposure to scripting languages such as PowerShell and Bash.</li><li>Elementary programming skills is beneficial but not required.</li></ul>",
+      "equipment": "<ul><li>Laptop or desktop with sufficient resources to run VMware.<ul><li>64-bit CPU with 8GB Ram or higher.</li><li>Windows 10, Ubuntu, CentOS, or Red Hat.</li><li>Note: ARM under MacOS is not supported.</li></ul></li><li>VMware Workstation or VMware Player (can be downloaded for free)</li></ul>"
+    }
+  },
+  {
+    "id": "offensive_security",
+    "hide": false,
+    "instructors": [{
+      "name": "Gregory Hatcher",
+      "title": "",
+      "twitter_handle": "",
+      "github_handle": "",
+      "workplace": "White Knight Labs",
+      "image_name": "",
+      "bio": "Greg's time spent in Army Special Forces and teaching Windows fundamentals at the NSA gives him a unique background for conducting full-scope offensive cyber operations. He has led over 100 penetration tests that include network, cloud, mobile, web app, and API technologies. In addition, Greg has authored and taught courses at Derbycon, Wild West Hackin' Fest, and Calvin University."
+    },{
+        "name": "John Stigerwalt",
+        "title": "",
+        "twitter_handle": "",
+        "github_handle": "",
+        "workplace": "White Knight Labs",
+        "image_name": "",
+        "bio": "During the last 10 years, John has worked in the following roles: blue team lead, developer, senior penetration tester, and red team lead. Focused mostly on exploit development and offensive cyber operations, he has led red team engagement in highly complex Fortune 500 companies. John has worked closely with Microsoft to improve kernel security for the Windows operating system. And he has led trainings at BlackHat, Derbycon, and Wild West Hackin' Fest."
+      }],
+    "course": {
+      "title": "Offensive Development",
+      "days": 2,
+      "scheduled": {
+        "day_one": true,
+        "day_two": true
+      },
+      "time": "8:00 AM - 5:00 PM, with one hour lunch break",
+      "description": {
+        "long_form": "This course is for offensive security engineers who want to transition into writing their own tools and have a deeper understanding of Windows internal and the inner workings of EDR products. At the beginning of the course, students will receive a Terraform script that spins up a lab environment that consists of several fully patched Windows machines. These machines will have Defender ATP, Cylance, Crowdstrike, and Sophos Intercept X EDR installed. The C2 framework used in the course is Cobalt Strike.",
+        "short_form": "This course is for offensive security engineers who want to transition into writing their own tools and have a deeper understanding of Windows internal and the inner workings of EDR products. At the beginning of the course, students will receive a Terraform script that spins up a lab environment that consists of several fully patched Windows machines. These machines will have Defender ATP, Cylance, Crowdstrike, and Sophos Intercept X EDR installed. The C2 framework used in the course is Cobalt Strike."
+      },
+      "prerequisites": "A background in C programming, Windows Internals, .NET programming, and how AV/EDR products work would be useful, but not required.",
+      "equipment": "We highly recommend that students bring at least one external monitor for this course. Students will need to have the ability to operate on multiple machines while referencing the lab guide simultaneously. Students will also need their own AWS account with admin privileges (read/write/execute) that has programmatic access (keys) so that they can use Terraform to spin up the environment on the first day."
+    }
+  },
+  {
+    "id": "",
+    "hide": true,
+    "instructors": [{
+      "name": "",
+      "title": "",
+      "twitter_handle": "",
+      "github_handle": "",
+      "workplace": "",
+      "image_name": "",
+      "bio": ""
+    }],
+    "course": {
+      "title": "",
+      "days": 1,
+      "scheduled": {
+        "day_one": true,
+        "day_two": false
+      },
+      "time": "8:00 AM - 5:00 PM, with one hour lunch break",
+      "description": {
+        "long_form": "",
+        "short_form": ""
+      },
+      "prerequisites": "",
+      "equipment": ""
+    }
+  }
+]

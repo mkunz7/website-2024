@@ -18,7 +18,7 @@ export default class CFP extends Component {
 				{/* <h3 className='closed-text'>The Call for Papers for 2022 has closed. See you next year!</h3> */}
 
 							<p className="tab-paragraph">
-				The Kernelcon Crew is soliciting presentations for the fifth annual Kernelcon held at the Downtown Embassy Suites in Omaha, NE, April 12-15, 2023.
+				The Kernelcon Crew is soliciting presentations for the sixth annual Kernelcon held at the Downtown Embassy Suites in Omaha, NE, April 2-5, 2024.
 							</p>
 							<p className="tab-paragraph">
 				Create something fun in your homelab? Develop a new technique? Wish you could spare someone the horrors you faced? Impart your wisdom, start the difficult conversations, submit your work to our CFP!
@@ -37,13 +37,19 @@ export default class CFP extends Component {
 									rel="noopener noreferrer"
 									target="_blank">
 									2020</a>,{" "}
-									or the{" "}
 								<a
 									href="http://2022.kernelcon.org/agenda"
 									className="text-highlight"
 									rel="noopener noreferrer"
 									target="_blank">
-									2022</a>{" "}programs{""}.
+									2022</a>,{" "}
+									or the{" "}
+								<a
+									href="http://2023.kernelcon.org/agenda"
+									className="text-highlight"
+									rel="noopener noreferrer"
+									target="_blank">
+									2023</a>{" "}programs{""}.
 							</p>
 							{/* <div className="tab-title">Important Dates</div> */}
 							<p className='tab-heading'>Important Dates</p>
@@ -60,12 +66,12 @@ export default class CFP extends Component {
 							</p>
 
 							{/* <div className="tab-title">About Kernelcon</div> */}
-							<p className='tab-heading'>About Kernelcon</p>
+							{/* <p className='tab-heading'>About Kernelcon</p>
 							<p className="tab-paragraph">In 2017, local collectives of information security professionals gathered together to start sharing knowledge and experiences here in Omaha. Many beers were had and slides discussed before culminating in a mission to gather knowledge seekers in the Midwest to propagate their techniques and mastery. Enter Kernelcon.</p>
 							<p className="tab-paragraph">In 2019, we exceeded our first-year targets with two speaking tracks, several conference events, and competitions for more than 350 attendees.  In 2020 we were one of the first security conferences to pivot to a pure-virtual format, populating two speaker live-streams, offering pre-conference training, and innovative virtual activities for our more than 400 paid attendees.</p>
 							<p className="tab-paragraph">With the time to consider and plan for 2021 in a virtual context, we pioneered Hack Live, an online event that saw experts in various hacking disciplines hack challenges in their domain live.  Kernelcon partnered with the Ultimate Hacking Championship and brought Hack Live to thousands of world-wide viewers.</p>
 							<p className="tab-paragraph">In 2022, we were excited to return to an in-person event.  We welcomed hackers from all around back to Omaha for sorely missed popcorn, networking, competitions, and of course world-class speakers.</p>
-							<p className="tab-paragraph">For 2023, Kernelcon organizers are excited to continue the tradition into year five and hope you will join us in sharing your knowledge and love of hacking with all our attendees.</p>
+							<p className="tab-paragraph">For 2023, Kernelcon organizers are excited to continue the tradition into year five and hope you will join us in sharing your knowledge and love of hacking with all our attendees.</p> */}
 
 							{/* <div className="tab-title">Suggested topic areas</div> */}
 							<p className='tab-heading'>Suggested topic areas</p>

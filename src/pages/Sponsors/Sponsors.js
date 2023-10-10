@@ -101,14 +101,14 @@ export default class Sponsors extends Component {
               </div>
             </div>
             <div className="spons-page">
-              <h1 className="title">Our Sponsors</h1>
+              {/* <h1 className="title">Our Sponsors</h1>
               <div className="text-block">
                 <p>
                   We would like to thank all of our sponsors who make
                   Kernelcon the best it can be. Without our sponsors,
                   our conference wouldn't happen.
                 </p>
-              </div>
+              </div> */}
 
               <div className="text-block spons-groups">
                 {/* <div className='spons-block'>
@@ -130,7 +130,7 @@ export default class Sponsors extends Component {
                   </div> */}
                 
 
-                  <div className='spons-block'>
+                  {/* <div className='spons-block'>
                     <h2 className='gold spons-title'>Gold</h2>
                     <a href="https://farmcredit.com/"
                       target="_blank"
@@ -148,7 +148,7 @@ export default class Sponsors extends Component {
                         className='spons-img other-spons'
                         alt="Farm Credit"/>
                     </a>
-                    {/* <a href="https://www.conagrabrands.com/"
+                    <a href="https://www.conagrabrands.com/"
                       target="_blank"
                       className='dark-mode-logo'
                       rel='noopener noreferrer'>
@@ -163,12 +163,12 @@ export default class Sponsors extends Component {
                       <img src={ConAgraLight}
                         className='spons-img other-spons'
                         alt="Conagra"/>
-                    </a> */}
-                  </div>
+                    </a>
+                  </div> */}
 
-                  <div className='spons-block'>
+                  {/* <div className='spons-block'>
                     <h3 className='silver spons-title'>Silver</h3>
-                    {/* <a href="https://www.contrastsecurity.com/"
+                    <a href="https://www.contrastsecurity.com/"
                       target="_blank"
                       className='dark-mode-logo'
                       rel='noopener noreferrer'>
@@ -183,7 +183,7 @@ export default class Sponsors extends Component {
                       <img src={ContrastDarkMode}
                         className='spons-img other-spons'
                         alt="Contrast Security"/>
-                    </a> */}
+                    </a>
                     <a href="https://fnbo.com/"
                       target="_blank"
                       rel='noopener noreferrer'>
@@ -191,14 +191,14 @@ export default class Sponsors extends Component {
                         className='spons-img other-spons'
                         alt="First National Bank of Omaha"/>
                     </a>
-                    {/* <a href="https://redcanary.com/"
+                    <a href="https://redcanary.com/"
                       target="_blank"
                       rel='noopener noreferrer'>
                       <img src={RedCanary}
                         className='spons-img other-spons'
                         alt="Red Canary"/>
-                    </a> */}
-                  </div>
+                    </a>
+                  </div> */}
 
                   {/* <div className='spons-block'>
                     <h4 className='bronze spons-title'>Bronze</h4>
@@ -357,7 +357,7 @@ export default class Sponsors extends Component {
                     </a>
                   </div> */}
 
-                  <div className='spons-block'>
+                  {/* <div className='spons-block'>
                     <h4 className='gold spons-title'>Other Sponsors</h4>
                     <a href="https://toool.us/"
                       target="_blank"
@@ -399,7 +399,7 @@ export default class Sponsors extends Component {
                         alt="Mental Health Hackers"/>
                     </a>
                     <br />
-                  </div>
+                  </div> */}
 
 
                 {/* <div className='spons-block'>

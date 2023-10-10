@@ -36,7 +36,7 @@ export default class OpenCalls extends Component {
           vertical={vert}>
           <TabList vertical>
             <Tab tabFor="papers">Papers</Tab>
-            <Tab tabFor="villages">Villages</Tab>
+            {/* <Tab tabFor="villages">Villages</Tab> */}
             <Tab tabFor="training">Training</Tab>
             {/* <Tab tabFor="competitions">Competitions</Tab>
             <Tab tabFor="stickers">Stickers</Tab> */}

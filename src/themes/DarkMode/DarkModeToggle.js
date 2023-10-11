@@ -3,8 +3,8 @@ import React from 'react';
 import './DarkModeToggle.scss';
 import useDarkMode from 'use-dark-mode';
 
-import Goggles from "../../static/images/icons/goggles.svg"
-import GogglesDarkMode from "../../static/images/icons/goggles-darkmode.svg"
+import Goggles from "../../static/images/icons/bender-face-2.png"
+import GogglesDarkMode from "../../static/images/icons/bender-face-2-red-eyes.png"
 
 
 const DarkModeToggle = () => {

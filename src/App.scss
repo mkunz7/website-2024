@@ -163,7 +163,8 @@ body.dark-mode {
 
 .dark-mode-toggle {
   display: flex;
-  margin: 4px auto;
+  //reduce margin to 0 for bender face
+  margin: 0px auto;
   &>button {
     font-size: 1.2em;
     background: none;

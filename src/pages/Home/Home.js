@@ -29,6 +29,7 @@ import BrainOutline from "../../static/images/icons/brain-outline.svg"
 import Certificate from "../../static/images/icons/certificate-2.svg"
 
 import "./Home.scss";
+import TextScramble from "../../components/TextScramble/TextScramble";
 
 export default class Home extends Component {
 	static displayName = "Home";
@@ -82,6 +83,7 @@ export default class Home extends Component {
               <img src={FullKernelconLogo} className="light-mode-logo light-mode-kernel-logo"  alt="kernelcon-logo"/>
               <img src={FullKernelconLogoDark} className="dark-mode-logo dark-mode-kernel-logo"  alt="kernelcon-logo"/>
               <h2 className="sub-title">The Science of Hacking</h2>
+              <TextScramble />
               {/* <div className="font-punk">The Science of Hacking</div> */}
               
               {/* <img src={PunkFemale} className="punk-img"  alt="punk-female"/>

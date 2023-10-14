@@ -12,7 +12,7 @@ body.dark-mode {
     width: 100%;
     height: 100%;
     // height: calc(100% - $hero-bottom-border);
-    background-image: linear-gradient( to bottom, rgba($dm-main-color,0) 70%, rgba($dm-main-color,1) ), url('./earth-night-2.jpg');
+    background-image: linear-gradient( to bottom, rgba($dm-main-color,0) 70%, rgba($dm-main-color,1) ), url('./cornfield.png');
     background-size: cover;
     background-position-x: center;
   }
@@ -33,7 +33,7 @@ header {
   width: 100%;
   height: 100%;
   // height: calc(100% - $hero-bottom-border);
-  background-image: linear-gradient( to bottom, rgba($cultured,0) 70%, rgba($cultured,1) ), url('./earth-day-2.jpg');
+  background-image: linear-gradient( to bottom, rgba($cultured,0) 70%, rgba($cultured,1) ), url('./cornfield.png');
   background-size: cover;
   background-position-x: center;
 }

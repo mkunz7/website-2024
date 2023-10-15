@@ -82,12 +82,7 @@ export default class Home extends Component {
             <div className="centered-top">
               <img src={FullKernelconLogo} className="light-mode-logo light-mode-kernel-logo"  alt="kernelcon-logo"/>
               <img src={FullKernelconLogoDark} className="dark-mode-logo dark-mode-kernel-logo"  alt="kernelcon-logo"/>
-              <h2 className="sub-title">The Science of Hacking</h2>
               <TextScramble />
-              {/* <div className="font-punk">The Science of Hacking</div> */}
-              
-              {/* <img src={PunkFemale} className="punk-img"  alt="punk-female"/>
-              <img src={PunkMale} className="punk-img" alt="punk-male"/> */}
             </div>
 
             <div className="col left">
@@ -96,13 +91,8 @@ export default class Home extends Component {
                   <div className="sizzle-text-title">
                     Welcome to Kernelcon
                   </div>
-                  {/* <ChemSet /> */}
-                  {/* <img src={ChemSet} className="sizzle-image"  alt="chemistry set"/> */}
                 </div>
                 <div className="sizzle-text-section">
-                  {/* <div className="sizzle-text">
-                    Join us on a trip to the cyber playground where you can let your punk flag fly whatever it is: biopunk, cyberpunk, steampunk, etc.
-                  </div> */}
                   <div className="sizzle-text">
                     Put your lab coat on and join us to test the hypothesis that Kernelcon is still one of the midwest's premier information security conferences.
                   </div>

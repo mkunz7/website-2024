@@ -1,20 +1,21 @@
-.text, .text-second, .a, .i {
-  font-size: 28px;
+.text, .text-second, .a-heading, .i-heading {
+  font-size: 48px;
 }
 .text, .text-second {
   color: #FAFAFA;
-  font-weight: 100;
 }
-.a, .i {
+.a-heading, .i-heading {
   color: green;
   font-weight: bolder;
 }
 .text, .text-second {
-  margin-left: -7px;
+  margin-left: 0px;
 }
 .dud {
   color: #757575;
 }
 .wording {
   margin: 10px;
+  display: flex;
+  font-family: monospace;
 }

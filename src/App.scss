@@ -8,6 +8,8 @@ body.light-mode {
   }
   .light-mode-kernel-logo {
     width: 95%;
+    filter: drop-shadow(3px 3px 3px black);
+    -webkit-filter: drop-shadow(3px 3px 3px black);
   }
   .dark-mode-logo {
     display: none !important;
@@ -92,6 +94,8 @@ body.dark-mode {
   }
   .dark-mode-kernel-logo {
     width: 95%;
+    filter: drop-shadow(3px 3px 3px black);
+    -webkit-filter: drop-shadow(3px 3px 3px black);
   }
   .light-mode-logo {
     display: none !important;

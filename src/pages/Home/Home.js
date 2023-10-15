@@ -80,7 +80,7 @@ export default class Home extends Component {
         <div className="container">
           <div className="home-page">
             <div className="centered-top">
-              <img src={FullKernelconLogo} className="light-mode-logo light-mode-kernel-logo"  alt="kernelcon-logo"/>
+              <img src={FullKernelconLogoDark} className="light-mode-logo light-mode-kernel-logo"  alt="kernelcon-logo"/>
               <img src={FullKernelconLogoDark} className="dark-mode-logo dark-mode-kernel-logo"  alt="kernelcon-logo"/>
               <TextScramble />
             </div>
@@ -237,7 +237,7 @@ export default class Home extends Component {
               
               {/* <img src={ChemSet} alt="chemistry set"/> */}
               
-              <div className='keynote'>
+              {/* <div className='keynote'>
                 <div className='keynote-header'>
                   <div className='keynote-title'>
                     Keynote Speaker:
@@ -255,7 +255,7 @@ export default class Home extends Component {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
 
 

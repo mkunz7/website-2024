@@ -8,51 +8,51 @@ class Scramble extends Component {
 
   render() {
     const a_scrambleTexts = [
-      "ctual,",
+      "ctual",
       "dversary",
       "mplify",
       "dvanced",
       "ugmented",
       "ndroid",
-      "narchy",
-      "dam"
+      "narchy"
     ]
 
     const i_scrambleTexts = [
-      "ntelligence,",
+      "ntelligence",
       "nclusion",
       "nfiltration",
       "nformation",
       "nception",
       "nitiative",
-      "ntrusion",
-      "s Great"
+      "ntrusion"
     ]
 
     return (
         <div class="container">
+          <div className="centered-top">
             <div class="wording">
-                <span class="a-heading">A</span>
+                <span class="a-heading a-bracket">[</span><span class="a-heading">A</span><span class="a-heading a-bracket">]</span>
                 <span class="text">        
                   <TextScramble
                     texts={a_scrambleTexts}
                     letterSpeed={5}
                     nextLetterSpeed={150}
-                    pauseTime={2000}
+                    pauseTime={4000}
                   />
                 </span>
             </div>
             <div class="wording">
-                <span class="i-heading">I</span>
+                <span class="i-heading i-bracket">[</span><span class="i-heading">I</span><span class="i-heading i-bracket">]</span>
                 <span class="text-second">        
                   <TextScramble
                     texts={i_scrambleTexts}
                     letterSpeed={5}
                     nextLetterSpeed={120}
-                    pauseTime={2000}
+                    pauseTime={4000}
                   />
                 </span>
             </div>
+          </div>
         </div>
     );
   }

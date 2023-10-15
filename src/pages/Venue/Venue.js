@@ -42,10 +42,10 @@ export default class Venue extends Component {
 				</TabList>
 				<TabPanel tabId="hotel">
 					<div className="text-area">
-						<div className="tab-title">Book Now</div>
-						{/* <div className="tab-title">Room Block</div> */}
+						{/* <div className="tab-title">Book Now</div> */}
+						<div className="tab-title">Room Block</div>
 						<div className="venue-hotel">
-							<div className="venue-text">
+							{/* <div className="venue-text">
 								We have a room block reserved at the conference
 								hotel from Apr 13 to Apr 15 at a rate of
 								$165/night. Book directly with the hotel{" "}
@@ -57,10 +57,10 @@ export default class Venue extends Component {
 									HERE
 								</a>
 								.{" "}  Please book by March 24th for our group rate.
-							</div>
-							{/* <div className="venue-text">
-								We will have a block of rooms available again this year for those wanting to stay on site.  Check back soon!
 							</div> */}
+							<div className="venue-text">
+								We will have a block of rooms available again this year for those wanting to stay on site.  Check back soon!
+							</div>
 						</div>
 					</div>
 					<div className="text-area">

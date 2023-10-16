@@ -95,7 +95,7 @@ export default class Home extends Component {
                 </div>
                 <div className="sizzle-text-section">
                   <div className="sizzle-text">
-                    Put your lab coat on and join us to test the hypothesis that Kernelcon is still one of the midwest's premier information security conferences.
+                    Remove the VR headset, step into the real world, and join us at one of the midwest's premier information security conferences.
                   </div>
                   <div className="sizzle-bullets">
                     <div className='sizzle-bullet-item'>
@@ -146,7 +146,7 @@ export default class Home extends Component {
                           Challenging Competitions
                         </div>
                         <div className='sizzle-bullet-desc'>
-                          Our Capture-the-Flag event is always a big hit and this year promises to be no less than 8-bits of CTF fun! Join us in a quest to win an eternal kernel aka lifetime entry to Kernelcon!
+                          Our Capture-the-Flag event is always a big hit and this year promises not to disappoint. Join us in a quest to win an eternal kernel aka lifetime entry to Kernelcon!
                         </div>
                       </div>
                     </div>
@@ -167,9 +167,9 @@ export default class Home extends Component {
                 </div>
               </div>
 
-              <div className='pop'>
+              {/* <div className='pop'>
                 <img src={imgSrc} className="mad-scientist" alt="mad scientist in lab"/>
-              </div>
+              </div> */}
 
             </div>
             <div className="col right">
@@ -199,20 +199,7 @@ export default class Home extends Component {
 
               <div className='pop'>
 
-              {/* <center>
-                <div className='order-button'>
-                  <a
-                    className="cybr-btn btn-bottom"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://reg.kernelcon.org/">
-                    Register Now
-                    <span aria-hidden className="cybr-btn__glitch">
-                      Register Now
-                    </span>
-                  </a>
-                </div>
-              </center> */}
+              <Terminal />
 
               
 
@@ -226,14 +213,14 @@ export default class Home extends Component {
                   <Button href="/register" title="Register" />
                 </div>
               </div> */}
-              <Terminal />
+              
 
-              <div className='theme-description'>
+              {/* <div className='theme-description'>
                 <h3>This year's theme is <span className='underline'>Science</span>.</h3> 
                 <p>Look at any science-related discipline and you'll find hackers learning and iterating, making discoveries and proving theories that have shaped the world we live in today.</p>
                 <br />
                 <p>Whether you are into engineering, physics, biology, electronics, mathematics, or chemistry <b>you belong here at Kernelcon.</b></p>
-              </div>
+              </div> */}
 
               {/* <img src={imgSrc} className="mad-scientist" alt="mad scientist in lab"/> */}
               

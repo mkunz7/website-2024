@@ -174,7 +174,7 @@ export default class Home extends Component {
             </div>
             <div className="col right">
 
-            <span className='button-left-margin'>
+            <span className='centered-top'>
               <div className='order-button'>
                 <a
                   className="cybr-btn btn-bottom"

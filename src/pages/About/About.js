@@ -260,6 +260,12 @@ export default class About extends Component {
               target='_blank'>
               Kernelcon 2022: Kernelcon Punk
             </a>
+            <a className='tab-title'
+              href="https://2023.kernelcon.org" 
+              rel='noopener noreferrer'
+              target='_blank'>
+              Kernelcon 2023: Science!
+            </a>
           </TabPanel>
         </span>
       </Tabs>

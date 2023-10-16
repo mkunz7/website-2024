@@ -48,7 +48,7 @@ export default class About extends Component {
           <Tab tabFor="kernelcon">Kernelcon</Tab>
           <Tab tabFor="code-of-conduct">Code Of Conduct</Tab>
           <Tab tabFor="reciprocity">Reciprocity</Tab>
-          <Tab tabFor="organizers">Organizers</Tab>
+          {/* <Tab tabFor="organizers">Organizers</Tab> */}
           <Tab tabFor="contact">Contact</Tab>
           <Tab tabFor="faq">FAQ</Tab>
           <Tab tabFor="archive">Archive</Tab>

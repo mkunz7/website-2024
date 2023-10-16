@@ -179,7 +179,7 @@ export default class Home extends Component {
                   className="cybr-btn btn-bottom"
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://reg.kernelcon.org/web/event?eventid=2138571278">
+                  href="https://reg.kernelcon.org/e/2138619365">
                   Register Now
                   <span aria-hidden className="cybr-btn__glitch">
                     Register Now

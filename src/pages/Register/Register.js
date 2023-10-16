@@ -12,7 +12,7 @@ class Register extends Component {
 						<h3 className="title">Register</h3>
 						<p className="tab-paragraph">
 							Welcome! We are happy to have your interest. Below is
-							the registration page for Kernelcon 2023!
+							the registration page for Kernelcon 2024!
 						</p>
 
 
@@ -21,7 +21,7 @@ class Register extends Component {
 								class="cybr-btn btn-bottom"
 								target="_blank"
 								rel="noopener noreferrer"
-								href="https://reg.kernelcon.org/web/event?eventid=2138571278">
+								href="https://reg.kernelcon.org/e/2138619365">
 								Register Now
 								<span aria-hidden class="cybr-btn__glitch">
 									Register Now

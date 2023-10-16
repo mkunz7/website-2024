@@ -4,7 +4,7 @@ body {
   // font-family: "Roboto", sans-serif;
   // cursor: crosshair;
   // background-color: #fbab7e;
-  animation: bg-color-change 2s linear infinite alternate both;
+  // animation: bg-color-change 2s linear infinite alternate both;
 }
 
 main {
@@ -96,14 +96,14 @@ main {
   }
 }
 
-@keyframes bg-color-change {
-  0% {
-    background-color: #fbab7e;
-  }
-  100% {
-    background-color: #ff9a8b;
-  }
-}
+// @keyframes bg-color-change {
+//   0% {
+//     background-color: #fbab7e;
+//   }
+//   100% {
+//     background-color: #ff9a8b;
+//   }
+// }
 
 @keyframes cursor-blink {
   0% {

@@ -30,6 +30,7 @@ import Certificate from "../../static/images/icons/certificate-2.svg"
 
 import "./Home.scss";
 import TextScramble from "../../components/TextScramble/TextScramble";
+import Terminal from "../../components/Terminal/Terminal";
 
 export default class Home extends Component {
 	static displayName = "Home";
@@ -225,6 +226,7 @@ export default class Home extends Component {
                   <Button href="/register" title="Register" />
                 </div>
               </div> */}
+              <Terminal />
 
               <div className='theme-description'>
                 <h3>This year's theme is <span className='underline'>Science</span>.</h3> 

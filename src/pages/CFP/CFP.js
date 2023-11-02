@@ -16,7 +16,7 @@ export default class CFP extends Component {
 								The 2024 Kernelcon Call for Papers is opening soon.  Please check back later.
 							</p>
 						</div> */}
-						<div className="text-area">
+						{<div className="text-area">
 							
 							{/* Commented out becuase imbedded into OpenCalls */}
 							{/* <h3 className="title">Call for Papers</h3> */}

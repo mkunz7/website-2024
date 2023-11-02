@@ -11,21 +11,22 @@ export default class CFP extends Component {
 				// <div className='venue-section'>
 					<div className="con-page">
 
-						<div className="text-area">
+						{/* <div className="text-area">
 							<p className="tab-paragraph">
 								The 2024 Kernelcon Call for Papers is opening soon.  Please check back later.
 							</p>
-						</div>
-						{/* <div className="text-area">
+						</div> */}
+						<div className="text-area">
 							
 							{/* Commented out becuase imbedded into OpenCalls */}
 							{/* <h3 className="title">Call for Papers</h3> */}
 
 				{/* <h3 className='closed-text'>The Call for Papers for 2022 has closed. See you next year!</h3> */}
 
-							{/*<p className="tab-paragraph">
+							<p className="tab-paragraph">
 				The Kernelcon Crew is soliciting presentations for the sixth annual Kernelcon held at the Downtown Embassy Suites in Omaha, NE, April 2-5, 2024.
 							</p>
+       						</div> {/*
 							<p className="tab-paragraph">
 				Create something fun in your homelab? Develop a new technique? Wish you could spare someone the horrors you faced? Impart your wisdom, start the difficult conversations, submit your work to our CFP!
 							</p>

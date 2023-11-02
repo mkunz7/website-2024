@@ -199,7 +199,7 @@ export default class CFP extends Component {
 				<p className="tab-paragraph">By submitting your talk proposeal, you agree to the Terms of Speaking.</p>
 		
 				
-						</div> */}
+						</div>
 					</div>
 				// </div>
 			// </div>

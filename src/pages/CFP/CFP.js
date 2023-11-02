@@ -22,7 +22,14 @@ export default class CFP extends Component {
 							{/* <h3 className="title">Call for Papers</h3> */}
 
 				{/* <h3 className='closed-text'>The Call for Papers for 2022 has closed. See you next year!</h3> */}
-
+					<p className="tab-paragraph">TL;DR - submit via  {" "}
+								<a
+									href="https://forms.gle/hUdJG1FNGtvJZu1u6"
+									className="text-highlight"
+									rel="noopener noreferrer"
+									target="_blank">
+									this form
+								</a> (but you really should read the instructions). </p>
 							<p className="tab-paragraph">
 				The Kernelcon Crew is soliciting presentations for the sixth annual Kernelcon held at the Downtown Embassy Suites in Omaha, NE, April 2-5, 2024.
 							</p>
@@ -141,14 +148,13 @@ export default class CFP extends Component {
 					<li><input className="fake-checkbox" type="checkbox"/>Contact information (email, twitter, phone, etc - if we need to reach you and we can't, that's on you) *</li>
 					<li><input className="fake-checkbox" type="checkbox"/>Speaker promotion information (twitter, facebook, etc) - if we want to promote your talk specifically, and you want us to tag you</li>
 					<li><input className="fake-checkbox" type="checkbox"/>Presentation Title</li>
-					<li><input className="fake-checkbox" type="checkbox"/>Abstract</li>
 					<li><input className="fake-checkbox" type="checkbox"/>Decide if you'd like your submission to be presented to the program committee anonymously for review</li>
 					<li><input className="fake-checkbox" type="checkbox"/>Read "Grant of Copyright Use" and "Speaker Terms" copied and completed from below</li>
 					<li><input className="fake-checkbox" type="checkbox"/>URL for any optional supplementary files (URL because you're sharing them with us)</li>
 					<li><input className="fake-checkbox" type="checkbox"/>Timeslot (20 or 60 minutes)</li>
 					<li><input className="fake-checkbox" type="checkbox"/>Abstract of your presentation (1200 characters or less) **</li>
-					<li><input className="fake-checkbox" type="checkbox"/>Bio (500 characters or less)</li>
-					<li><input className="fake-checkbox" type="checkbox"/>Technical Level of talk: on a 1-none to 5-all the way down the rabbit hole</li>
+					<li><input className="fake-checkbox" type="checkbox"/>Speaker Bio (500 characters or less)</li>
+					<li><input className="fake-checkbox" type="checkbox"/>Technical Level of talk: on a 1 (none) to 5 (all the way down the rabbit hole) scale</li>
 					<li><input className="fake-checkbox" type="checkbox"/>Detailed Description: <span className="text-highlight">the most important part</span> of your submission. You need to provide detailed information that demonstrates your knowledge of your topic and how you will present it to the audience. Do not rely on your abstract to be enough for the reviewers. It isn’t. If your talk will include demos, new exploits, tool releases or audience interactions, please include details.</li>
 					<li><input className="fake-checkbox" type="checkbox"/>Why do you feel this submission is a good fit for Kernelcon?</li>
 					<li><input className="fake-checkbox" type="checkbox"/>List of other venues or where this work has been presented, published or derived from</li>

@@ -10,9 +10,9 @@ class Training extends Component {
   render() {
     // constants, can change from year to year.  Along with config update, should generate new training content.
     const baseUrl = 'training';
-    const dayOneTraining = 'Wednesday, April 12';
-    const dayTwoTraining = 'Thursday, April 13';
-    const trainingYear = '2023';
+    const dayOneTraining = 'Tuesday, April 2nd';
+    const dayTwoTraining = 'Wednesday, April 3rd';
+    const trainingYear = '2024';
 
     // course descriptions may require their own html (i.e. when instructors put bullets or multiple paragraphs)
     function createMarkup(ele) {

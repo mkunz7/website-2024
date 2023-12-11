@@ -60,7 +60,7 @@ export default class OpenCalls extends Component {
               <p className='tab-paragraph'>All one-day classes will be offered to attendees at $500, all two-day classes will be $1000.</p>
             
               <p className='tab-heading'>Due Date?</p>
-              <p className='tab-paragraph'>Training proposals are due no later than December 15th, 2023. Instructors will be notified of Acceptance/Rejections by the end of the day, December 31st, 2024. Early submissions may be accepted earlier.  See important dates at <a href='/dates' className='text-highlight' rel='noopener noreferrer' target='_blank'>kernelcon.org/dates</a> for official and updated dates.</p>
+              <p className='tab-paragraph'>Training proposals are due no later than December 15th, 2023. Instructors will be notified of Acceptance/Rejections by the end of the day, December 31st, 2023. Early submissions may be accepted earlier.  See important dates at <a href='/dates' className='text-highlight' rel='noopener noreferrer' target='_blank'>kernelcon.org/dates</a> for official and updated dates.</p>
             
 
               <p className='tab-heading'>What are we looking for in general?</p>

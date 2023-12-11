@@ -25,6 +25,9 @@ import FarmCreditDark from "../../static/images/sponsors/farm-credit-dark-mode.p
 import FarmCreditLight from "../../static/images/sponsors/farm-credit-light-mode.png";
 import MentalHealthHackersDark from "../../static/images/logos/MHH-white.png"
 import MentalHealthHackersLight from "../../static/images/logos/MHH.png"
+import SecureSkyDark from "../../static/images/sponsors/securesky-dark.png"
+import SecureSkyLight from "../../static/images/sponsors/securesky-light.png"
+
 import "./Sponsors.scss";
 
 export default class Sponsors extends Component {
@@ -101,14 +104,14 @@ export default class Sponsors extends Component {
               </div>
             </div>
             <div className="spons-page">
-              {/* <h1 className="title">Our Sponsors</h1>
+              <h1 className="title">Our Sponsors</h1>
               <div className="text-block">
                 <p>
                   We would like to thank all of our sponsors who make
                   Kernelcon the best it can be. Without our sponsors,
                   our conference wouldn't happen.
                 </p>
-              </div> */}
+              </div>
 
               <div className="text-block spons-groups">
                 {/* <div className='spons-block'>
@@ -402,6 +405,32 @@ export default class Sponsors extends Component {
                   </div> */}
 
 
+                <div className='spons-block'>
+                    <div className='foodbev-spons'>
+                    
+                      <div className='single-foodbev-spons'>
+                        <h6 className='text-highlight spons-title'>Popcorn</h6>
+                        <a href="https://securesky.com/"
+                          target="_blank"
+                          rel='noopener noreferrer'
+                          className='light-mode-logo'>
+                          <img src={SecureSkyLight}
+                            className='spons-img fdbev-spons'
+                            alt="SecureSky"/>
+                        </a>
+                        <a href="https://securesky.com/"
+                          target="_blank"
+                          rel='noopener noreferrer'
+                          className='dark-mode-logo'>
+                          <img src={SecureSkyDark}
+                            className='spons-img fdbev-spons'
+                            alt="SecureSky"/>
+                        </a>
+                      </div>
+                    </div>
+                </div>
+
+
                 {/* <div className='spons-block'>
                     <div className='foodbev-spons'>
                     
@@ -458,7 +487,7 @@ export default class Sponsors extends Component {
                       </div>
 
                     </div>
-                  </div> */}
+                </div> */}
               </div>
             </div>
           </div>

@@ -52,7 +52,7 @@ export default class OpenCalls extends Component {
             </TabPanel>
             <TabPanel tabId="training">
               <div className='tab-title'>Call for Training Courses</div>
-              {/* <h4 className='closed-text'>The 2023 Call for Training has closed. See you next year!</h4> */}
+              <h4 className='closed-text'>The 2024 Call for Training has closed. See you next year!</h4>
               <p className='tab-paragraph'>The Kernelcon Trainings offer attendees technical courses on topics from the information security field. These will be hands-on courses that help expand attendees' skill sets and knowledge.</p>
               
               <p className='tab-heading'>Length and Cost?</p>

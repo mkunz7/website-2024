@@ -630,6 +630,7 @@ module.exports = function(webpackEnv) {
       trainingConfig: JSON.stringify(require('./content/training.json')), //eslint-disable-line
       villageConfig: JSON.stringify(require('./content/villages.json')), //eslint-disable-line
       competitionConfig: JSON.stringify(require('./content/competitions.json')), //eslint-disable-line
+      aiPicsConfig: JSON.stringify(require('./content/ai-pics.json')), //eslint-disable-line
     },
     // Turn off performance processing because we utilize
     // our own hints via the FileSizeReporter

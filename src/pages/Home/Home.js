@@ -31,6 +31,9 @@ import Certificate from "../../static/images/icons/certificate-2.svg"
 import "./Home.scss";
 import TextScramble from "../../components/TextScramble/TextScramble";
 import Terminal from "../../components/Terminal/Terminal";
+import AiPic from "../../components/AiPic/AiPic";
+
+import config from 'aiPicsConfig';
 
 export default class Home extends Component {
 	static displayName = "Home";
@@ -41,7 +44,7 @@ export default class Home extends Component {
 		});
 	};
 
-  getRandomScientist(lengthOfArray, indexToExclude, secondLastKernelIndex) {
+  getRandomPic(lengthOfArray, indexToExclude, secondLastKernelIndex) {
     // This function just grabs a random index that wasn't one of the last two.
     // Obviously, due to math, you need to send in at least an array of length 3.
     let rand = null;
@@ -61,19 +64,9 @@ export default class Home extends Component {
 		};
 	}
 
-  getScientist() {
-    const randScientist = this.getRandomScientist(7, 0, 0);
-
-    // If image DNE, assign the random Scientist we've generated.
-    const img = `mad-scientists/mad_scientist_${randScientist}.png`;
-    const imgSrc =  img ? require(`../../static/images/${img}`) : 'https://via.placeholder.com/150';
-    return imgSrc;
-  }
- 
-
-
 	render() {
-    const imgSrc = this.getScientist();
+    // grab index of random ai generated pic
+    const aiPicIndex = this.getRandomPic(config.length, 0, 0);
 
 		return (
       <div id='main_hero' className='hero'>
@@ -198,8 +191,14 @@ export default class Home extends Component {
               </span>
 
               <div className='pop'>
+                <Terminal />
+              </div>
 
-              <Terminal />
+              <div className='pop'>
+                <AiPic pic={aiPicIndex} />
+              </div>
+
+              <div>
 
               
 
@@ -223,6 +222,7 @@ export default class Home extends Component {
               </div> */}
 
               {/* <img src={imgSrc} className="mad-scientist" alt="mad scientist in lab"/> */}
+              
               
               {/* <img src={ChemSet} alt="chemistry set"/> */}
               

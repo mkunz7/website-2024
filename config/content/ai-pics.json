@@ -1,0 +1,115 @@
+[{
+    "id": 1,
+    "prompt": "cyber security corn hacker",
+    "engine": "mage.space",
+    "image": "cyber-security-corn-hacker.jpg"
+  },
+  {
+    "id": 2,
+    "prompt": "robot made of corn hacking on a laptop",
+    "engine": "mage.space",
+    "image": "robot-corn-hacking-laptop.jpg"
+  },
+  {
+    "id": 3,
+    "prompt": "cyber corn overlords",
+    "engine": "mage.space",
+    "image": "cyber-corn-overlords.png"
+  },
+  {
+    "id": 4,
+    "prompt": "ANSI art trainer Corn Corn Corn Kernel of Corn, low resolution, 1980's CRT terminal, fuzzy, glitch art, sharp, vivid, photography",
+    "engine": "Dalle3",
+    "image": "corn-head.jpeg"
+  },
+  {
+    "id": 5,
+    "prompt": "a speaker behind a lectern in a hacker AI theme",
+    "engine": "Dalle3 via bing",
+    "image": "speaker-lectern-hacker-ai.jpeg"
+  },
+  {
+    "id": 6,
+    "prompt": "robot hacker on laptop in field of corn",
+    "engine": "Dalle3",
+    "image": "robot-field-of-corn-1.jpg"
+  },
+  {
+    "id": 7,
+    "prompt": "robot hacker on laptop in field of corn",
+    "engine": "Dalle3",
+    "image": "robot-field-of-corn-2.jpg"
+  },
+  {
+    "id": 8,
+    "prompt": "The essence of everything that is kernelcon",
+    "engine": "Dalle3",
+    "image": "essence-of-kernelcon-1.jpeg"
+  },
+  {
+    "id": 9,
+    "prompt": "The essence of everything that is kernelcon",
+    "engine": "Dalle3",
+    "image": "essence-of-kernelcon-2.jpeg"
+  },
+  {
+    "id": 10,
+    "prompt": "The essence of everything that is kernelcon",
+    "engine": "Dalle3",
+    "image": "essence-of-kernelcon-3.jpeg"
+  },
+  {
+    "id": 11,
+    "prompt": "cyber corn explosion",
+    "engine": "Dalle3",
+    "image": "cyber-corn-explosion-1.jpg"
+  },
+  {
+    "id": 12,
+    "prompt": "cyber corn explosion",
+    "engine": "Dalle3",
+    "image": "cyber-corn-explosion-2.jpg"
+  },
+  {
+    "id": 13,
+    "prompt": "cyber corn explosion",
+    "engine": "Dalle3",
+    "image": "cyber-corn-explosion-3.jpg"
+  },
+  {
+    "id": 14,
+    "prompt": "50's era diner with futuristic robot sitting in booth hacking on a laptop eating cyber popcorn",
+    "engine": "Dalle3",
+    "image": "diner-robot.jpg"
+  },
+  {
+    "id": 15,
+    "prompt": "A hackathon of humanoid robots hacking on laptops. Detailed, intricate. Cyber-futuristic lighting. Large digital leaderboard screens on the wall. Realistic, fog machines, moody",
+    "engine": "SDXL & Cyberpunk 2077 LoRA",
+    "image": "hackathon-of-humanoid-robots-1.png"
+  },
+  {
+    "id": 16,
+    "prompt": "A hackathon of humanoid robots hacking on laptops. Detailed, intricate. Cyber-futuristic lighting. Large digital leaderboard screens on the wall. Realistic, fog machines, moody",
+    "engine": "SDXL & Cyberpunk 2077 LoRA",
+    "image": "hackathon-of-humanoid-robots-2.png"
+  },
+  {
+    "id": 17,
+    "prompt": "A hackathon of humanoid robots hacking on laptops. Detailed, intricate. Cyber-futuristic lighting. Large digital leaderboard screens on the wall. Realistic, fog machines, moody",
+    "engine": "SDXL & Cyberpunk 2077 LoRA",
+    "image": "hackathon-of-humanoid-robots-3.png"
+  },
+  {
+    "id": 18,
+    "prompt": "A hackathon of humanoid robots hacking on laptops. Detailed, intricate. Cyber-futuristic lighting. Large digital leaderboard screens on the wall. Realistic, fog machines, moody",
+    "engine": "SDXL & Cyberpunk 2077 LoRA",
+    "image": "hackathon-of-humanoid-robots-4.png"
+  },
+  {
+    "id": 19,
+    "prompt": "neon noir, humanoid corn cobs, hacking on laptops, detailed, intricate, cyber futuristic lighting, large digital leaderboard screens on the wall, realistic, fog machines, moody",
+    "engine": "SDXL & Cyberpunk 2077 LoRA",
+    "image": "humanoid-corncob.png"
+  }
+]

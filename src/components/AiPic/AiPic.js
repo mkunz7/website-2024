@@ -26,7 +26,7 @@ class AiPic extends Component {
           <div className='container'>
               <div className='venue-section'>
                   <img src={imgSrc} className="mad-scientist" alt="mad scientist in lab"/>
-                  <i>"{config[parseInt(this.props.pic)-1].prompt}"</i> - generated using {config[parseInt(this.props.pic)-1].engine}
+                  Prompt: <i>"{config[parseInt(this.props.pic)-1].prompt}"</i> - generated using {config[parseInt(this.props.pic)-1].engine}
               </div>
           </div>
       </div>

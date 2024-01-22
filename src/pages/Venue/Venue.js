@@ -164,7 +164,7 @@ export default class Venue extends Component {
 					<div className="tab-title">Where to Park</div>
 					<p className="about-sub-text">For hotel guests:</p>
 					<p className="about-sub-text">
-						Parking is included with your hotel room!
+						Hotel lot surface parking is an additional charge for hotel guests. It is not included with the conference room rate.
 					</p>
 					<p className="about-sub-text">For commuters:</p>
 					<p className="about-sub-text">

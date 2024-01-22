@@ -44,58 +44,63 @@ class Training extends Component {
       });
 
       return (
-        <div className='training-card'
-          key={`${ele}-${idx}`}
-          name={ele.id}
-          id={ele.id}>
-          <a href={`/${baseUrl}#${ele.id}`}>
-            <div className='training-title'>
-              <span>{ele.course.title}</span>
-              <span>{ele.course.days > 1 ? '$1,000' : '$500'}</span>
-            </div>
-          </a>
-          <div className='training-notes'>
-            <div className='training-notes-left'>
-              <div className='training-instructors'>
-                <div className='training-heading'>{ele.instructors.length > 1 ? 'Instructors' : 'Instructor'}:</div>
-                <div className='training-instructor-names'>{instructors}</div>
-              </div>
-              <div className='training-format'>
-                <div className='training-heading'>Format:</div>
-                <div>{ele.course.days} {ele.course.days > 1 ? 'days training' : 'day training'}</div>
-              </div>
-              <div className='training-format'>
-                <div className='training-heading'>{ele.course.days > 1 ? 'Dates:' : 'Date:'}</div>
-                <div>{ele.course.days > 1 ? `${dayOneTraining} and ${dayTwoTraining}, ${trainingYear}` : ele.day > 1 ? `${dayTwoTraining}, ${trainingYear}`: `${dayOneTraining}, ${trainingYear}`}</div>
-              </div>
-              <div className='training-format'>
-                <div className='training-heading'>{ele.course.days > 1 ? 'Times:' : 'Time:'}</div>
-                <div>{ele.course.days > 1 ? `${ele.course.time} each day` : ele.course.time}</div>
-              </div>
-            </div>
-            <div className='training-notes-right'>
-              <a
-                class="cybr-btn btn-bottom"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://reg.kernelcon.org/">
-                Register Now
-                <span aria-hidden class="cybr-btn__glitch">
-                  Register Now
-                </span>
-              </a>
-            </div>
+        <>
+          <div>
+            <br /><p>Kernelcon Training offers courses from experienced trainers on relevant topics in information security. These are hands-on, in-person courses that will help expand attendees' skill sets and knowledge. Kernelcon's goal is to provide top-notch training at an affordable price. Each training ticket includes a badge to the Kernelcon conference and snacks and lunch during training. Whether new to the field or an old blackhat, offense or defense, technical or general, or anything and everything inbetween, we hope you find something you like.</p>
           </div>
-          <div className='training-desc' dangerouslySetInnerHTML={createMarkup(ele.course.description.short_form)} />
-  				{ele.course.prerequisites && <div className='training-prereqs'>
-  					<div className='training-heading'>Prerequisites:</div>
-  					<div className='training-text' dangerouslySetInnerHTML={createMarkup(ele.course.prerequisites)} />
-  				</div>}
-  				{ele.course.equipment && <div className='training-equipment'>
-  					<div className='training-heading'>Required Equipment:</div>
-  					<div className='training-text' dangerouslySetInnerHTML={createMarkup(ele.course.equipment)} />
-  				</div>}
-        </div>
+          <div className='training-card'
+            key={`${ele}-${idx}`}
+            name={ele.id}
+            id={ele.id}>
+            <a href={`/${baseUrl}#${ele.id}`}>
+              <div className='training-title'>
+                <span>{ele.course.title}</span>
+                <span>{ele.course.days > 1 ? '$1,000' : '$500'}</span>
+              </div>
+            </a>
+            <div className='training-notes'>
+              <div className='training-notes-left'>
+                <div className='training-instructors'>
+                  <div className='training-heading'>{ele.instructors.length > 1 ? 'Instructors' : 'Instructor'}:</div>
+                  <div className='training-instructor-names'>{instructors}</div>
+                </div>
+                <div className='training-format'>
+                  <div className='training-heading'>Format:</div>
+                  <div>{ele.course.days} {ele.course.days > 1 ? 'days training' : 'day training'}</div>
+                </div>
+                <div className='training-format'>
+                  <div className='training-heading'>{ele.course.days > 1 ? 'Dates:' : 'Date:'}</div>
+                  <div>{ele.course.days > 1 ? `${dayOneTraining} and ${dayTwoTraining}, ${trainingYear}` : ele.day > 1 ? `${dayTwoTraining}, ${trainingYear}`: `${dayOneTraining}, ${trainingYear}`}</div>
+                </div>
+                <div className='training-format'>
+                  <div className='training-heading'>{ele.course.days > 1 ? 'Times:' : 'Time:'}</div>
+                  <div>{ele.course.days > 1 ? `${ele.course.time} each day` : ele.course.time}</div>
+                </div>
+              </div>
+              <div className='training-notes-right'>
+                <a
+                  class="cybr-btn btn-bottom"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://reg.kernelcon.org/">
+                  Register Now
+                  <span aria-hidden class="cybr-btn__glitch">
+                    Register Now
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div className='training-desc' dangerouslySetInnerHTML={createMarkup(ele.course.description.short_form)} />
+            {ele.course.prerequisites && <div className='training-prereqs'>
+              <div className='training-heading'>Prerequisites:</div>
+              <div className='training-text' dangerouslySetInnerHTML={createMarkup(ele.course.prerequisites)} />
+            </div>}
+            {ele.course.equipment && <div className='training-equipment'>
+              <div className='training-heading'>Required Equipment:</div>
+              <div className='training-text' dangerouslySetInnerHTML={createMarkup(ele.course.equipment)} />
+            </div>}
+          </div>
+        </>
       );
     });
 

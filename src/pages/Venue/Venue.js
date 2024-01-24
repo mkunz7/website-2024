@@ -45,22 +45,25 @@ export default class Venue extends Component {
 						{/* <div className="tab-title">Book Now</div> */}
 						<div className="tab-title">Room Block</div>
 						<div className="venue-hotel">
-							{/* <div className="venue-text">
+							<div className="venue-text">
 								We have a room block reserved at the conference
-								hotel from Apr 13 to Apr 15 at a rate of
-								$165/night. Book directly with the hotel{" "}
+								hotel at a rate of
+								$169/night. Book directly with the hotel{" "}
 								<a
 									className="text-highlight"
-									href="https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=OMADTES&arrivalDate=2023-04-13&departureDate=2023-04-15&groupCode=KCA&room1NumAdults=1&cid=OM%2CWW%2CHILTONLINK%2CEN%2CDirectLink"
+									href="https://www.hilton.com/en/book/reservation/rooms/?ctyhocn=OMADTES&arrivalDate=2024-04-01&departureDate=2024-04-06&groupCode=91C&room1NumAdults=1&cid=OM%2CWW%2CHILTONLINK%2CEN%2CDirectLink"
 									rel="noopener noreferrer"
 									target="_blank">
 									HERE
 								</a>
-								.{" "}  Please book by March 24th for our group rate.
-							</div> */}
-							<div className="venue-text">
-								We will have a block of rooms available again this year for those wanting to stay on site.  Check back soon!
+								{" "}or call +1-800-362-2779 and request Embassy Suites Omaha Downtown. The code to receive your rate is CES91C.
 							</div>
+							<div className="venue-text">
+								Please book by March 11th for our group rate.
+							</div>
+							{/* <div className="venue-text">
+								We will have a block of rooms available again this year for those wanting to stay on site.  Check back soon!
+							</div> */}
 						</div>
 					</div>
 					<div className="text-area">

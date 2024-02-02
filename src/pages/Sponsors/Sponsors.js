@@ -115,7 +115,7 @@ export default class Sponsors extends Component {
 
               <div className="text-block spons-groups">
                 <div className='spons-block'>
-                  <h2 className='gold spons-title'>Platinum</h2>
+                  <h2 className='platinum spons-title'>Platinum</h2>
                   <div className='gp-logo'>
                     <a href="https://www.guidepointsecurity.com/"
                       target="_blank"
@@ -226,14 +226,14 @@ export default class Sponsors extends Component {
                 </div>
                 
 
-                  {/* <div className='spons-block'>
+                  <div className='spons-block'>
                     <h2 className='gold spons-title'>Gold</h2>
                     <a href="https://farmcredit.com/"
                       target="_blank"
                       className='light-mode-logo'
                       rel='noopener noreferrer'>
                       <img src={FarmCreditLight}
-                        className='spons-img other-spons'
+                        className='spons-img gold-spons'
                         alt="Farm Credit"/>
                     </a>
                     <a href="https://farmcredit.com/"
@@ -241,15 +241,15 @@ export default class Sponsors extends Component {
                       className='dark-mode-logo'
                       rel='noopener noreferrer'>
                       <img src={FarmCreditDark}
-                        className='spons-img other-spons'
+                        className='spons-img gold-spons'
                         alt="Farm Credit"/>
                     </a>
-                    <a href="https://www.conagrabrands.com/"
+                    {/* <a href="https://www.conagrabrands.com/"
                       target="_blank"
                       className='dark-mode-logo'
                       rel='noopener noreferrer'>
                       <img src={ConAgraLight}
-                        className='spons-img other-spons'
+                        className='spons-img gold-spons'
                         alt="Conagra"/>
                     </a>
                     <a href="https://www.conagrabrands.com/"
@@ -257,10 +257,10 @@ export default class Sponsors extends Component {
                       className='all-dark light-mode-logo'
                       rel='noopener noreferrer'>
                       <img src={ConAgraLight}
-                        className='spons-img other-spons'
+                        className='spons-img gold-spons'
                         alt="Conagra"/>
-                    </a>
-                  </div> */}
+                    </a> */}
+                  </div>
 
                   {/* <div className='spons-block'>
                     <h3 className='silver spons-title'>Silver</h3>

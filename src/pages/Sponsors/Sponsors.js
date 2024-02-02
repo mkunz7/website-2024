@@ -228,7 +228,7 @@ export default class Sponsors extends Component {
 
                   <div className='spons-block'>
                     <h2 className='gold spons-title'>Gold</h2>
-                    <a href="https://farmcredit.com/"
+                    <a href="https://www.fcsamerica.com/"
                       target="_blank"
                       className='light-mode-logo'
                       rel='noopener noreferrer'>
@@ -236,7 +236,7 @@ export default class Sponsors extends Component {
                         className='spons-img gold-spons'
                         alt="Farm Credit"/>
                     </a>
-                    <a href="https://farmcredit.com/"
+                    <a href="https://www.fcsamerica.com/"
                       target="_blank"
                       className='dark-mode-logo'
                       rel='noopener noreferrer'>

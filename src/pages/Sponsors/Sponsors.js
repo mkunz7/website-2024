@@ -27,6 +27,8 @@ import MentalHealthHackersDark from "../../static/images/logos/MHH-white.png"
 import MentalHealthHackersLight from "../../static/images/logos/MHH.png"
 import SecureSkyDark from "../../static/images/sponsors/securesky-dark.png"
 import SecureSkyLight from "../../static/images/sponsors/securesky-light.png"
+import TrailOfBitsDark from "../../static/images/sponsors/trailofbits-dark-mode.png"
+import TrailOfBitsLight from "../../static/images/sponsors/trailofbits-light-mode.png"
 
 import "./Sponsors.scss";
 
@@ -262,25 +264,25 @@ export default class Sponsors extends Component {
                     </a> */}
                   </div>
 
-                  {/* <div className='spons-block'>
+                  <div className='spons-block'>
                     <h3 className='silver spons-title'>Silver</h3>
-                    <a href="https://www.contrastsecurity.com/"
+                    <a href="https://www.trailofbits.com/"
                       target="_blank"
                       className='dark-mode-logo'
                       rel='noopener noreferrer'>
-                      <img src={ContrastLightMode}
+                      <img src={TrailOfBitsDark}
                         className='spons-img other-spons'
-                        alt="Contrast Security"/>
+                        alt="Trail of Bits"/>
                     </a>
-                    <a href="https://www.contrastsecurity.com/"
+                    <a href="https://www.trailofbits.com/"
                       target="_blank"
                       className='light-mode-logo'
                       rel='noopener noreferrer'>
-                      <img src={ContrastDarkMode}
+                      <img src={TrailOfBitsLight}
                         className='spons-img other-spons'
-                        alt="Contrast Security"/>
+                        alt="Trail of Bits"/>
                     </a>
-                    <a href="https://fnbo.com/"
+                    {/* <a href="https://fnbo.com/"
                       target="_blank"
                       rel='noopener noreferrer'>
                       <img src={Fnbo}
@@ -293,8 +295,8 @@ export default class Sponsors extends Component {
                       <img src={RedCanary}
                         className='spons-img other-spons'
                         alt="Red Canary"/>
-                    </a>
-                  </div> */}
+                    </a> */}
+                  </div>
 
                   {/* <div className='spons-block'>
                     <h4 className='bronze spons-title'>Bronze</h4>

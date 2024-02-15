@@ -28,6 +28,10 @@ class Scramble extends Component {
     ]
 
     return (
+        // Disable banner on mobile
+        if (/Mobi/.test(navigator.userAgent)){
+          return <div className="container"></div>;
+        }
         <div class="container">
           <div className="centered-top">
             <div class="wording">
